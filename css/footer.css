@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.footer{ 
+    /* border:1px solid red; */
+    margin: 100px 0px 0px 0px;
+    padding: 10px 0px;
+    background-color: rgb(42, 42, 141,0.5);
+   
+}
+.footer-main-text{
+    /* border: 1px solid red; */
+    font-size: 45px;
+    color: midnightblue;
+    text-align: center;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+    
+}
+.footer-con{
+    /* border: 1px solid lime; */
+    /* margin-bottom: 20px; */
+}
+.footer-con .footer-row{
+    /* border: 1px solid blue; */
+    /* background-color: rgb(42, 42, 141,0.5); */   
+}
+.footer-main-box {
+    /* border: 1px solid red; */
+    padding: 20px 0px;
+}
+#main-left-box{
+    /* border: 1px solid pink; */
+}
+#main-left-box .left-footer{
+    /* border: 1px solid lime; */
+    padding: 10px;
+    /* text-align: center; */
+}
+#left-footer-box h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+    text-align: center;
+    
+}
+#left-footer-box .left-footer-text{
+    color: midnightblue;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal
+}
+#left-footer-box .number{
+    /* border: 1px solid red; */
+    width: 135px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+   
+}
+#left-footer-box .number .num-text{
+    text-decoration: none;
+    display: flex;
+    color: midnightblue;
+    font-weight: 500;
+}
+#left-footer-box .number .num-text:hover{
+    color: rgb(40, 37, 206);
+}
+#left-footer-box .number .num-text .fa-phone-alt{
+    margin-right: 5px;
+}
+#left-footer-box .email-us{
+    /* border: 1px solid red; */
+    width: 210px;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+}
+
+#left-footer-box .email-us .mail-text{
+    text-decoration: none;
+    display: flex;
+    color: midnightblue;
+    font-weight: 500;
+}
+#left-footer-box .email-us .mail-text:hover{
+    color: rgb(40, 37, 206);
+}
+#left-footer-box .email-us .mail-text .mail{
+    color: midnightblue;
+    transform: rotate(0deg);
+    margin-right: 5px;
+}
+#left-footer-box .email-us .mail-text:hover .mail{
+    color: rgb(40, 37, 206);
+}
+
+/* *********************************************************************** */
+
+#right-footer-box h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+    text-align: center;
+    
+}
+#right-footer-box  .logo-holder{
+    /* border: 1px solid lime; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right-footer-box  .logo-holder .footer-logo{
+    /* border: 1px solid red; */
+}
+
+.logo-holder .footer-logo .footer-logo-holder{
+    /* border: 1px solid aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 10px 0px 0px;
+    padding: 4px;
+    color: whitesmoke;
+    
+   
+}
+.logo-holder .footer-logo .footer-fb{
+    padding: 4px 7px;
+    background: rgb(13, 13, 179);
+    /* transform: rotate(0deg); */
+}
+.footer-logo .footer-twi{
+    background: rgb(36, 145, 218);
+   
+}
+.footer-logo .footer-whats{
+    background: rgb(7, 180, 1);
+}
+.footer-logo .footer-insta{ 
+    background-image: linear-gradient(70deg,rgb(64, 64, 182),rgb(211, 46, 183),yellow);
+}
+.logo-holder .footer-logo .footer-logo-holder:hover{
+    /* box-shadow: ; */
+}
+.logo-holder .footer-logo .footer-logo-holder:hover{
+    transform: rotate(-45deg);
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 0px 2px;
+    transition: all 0.7s;
+}
+.logo-holder .footer-logo .footer-logo-holder:hover .fab{
+    transform: rotate(45deg);
+    transition: all 0.7s;
+}
+/* *************************************************************** */
+#main-right-box{
+    /* border: 1px solid red; */
+  
+}
+#main-right-box .contact-holder{
+    /* border: 1px solid lime; */
+    background-color:  rgb(51, 51, 167,0.3);
+    padding: 15px 0px;
+}
+#main-right-box h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#main-right-box .contact-holder .name{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    margin: 0px auto;
+    padding: 8px 35px;
+    text-align: center;
+    /* border-radius: 50px; */
+    font-size: 15px ;
+    background-color:  rgb(51, 51, 167,0.5);
+    color: rgb(186, 186, 192);
+    margin-bottom: 10px;
+    border:rgb(51, 51, 167,0.3) ;
+    
+    /* text-align: center; */
+}
+ /* #main-right-box .contact-holder .name:focus{
+    border: 1px solid rgb(51, 51, 167,0.5);
+} */
+input:focus { 
+    outline: none ;
+    /* border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE; */
+ }
+#main-right-box .contact-holder .message{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    margin: 0px auto;
+    padding: 25px 35px;
+    text-align: center;
+    /* border-radius: 50px; */
+    font-size: 15px ;
+    background-color:  rgb(51, 51, 167,0.5);
+    color: rgb(186, 186, 192);
+    margin-bottom: 20px;
+    border:rgb(51, 51, 167,0.3) ;
+}
+#main-right-box .contact-holder ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(196, 196, 196);
+    opacity: 1; /* Firefox */
+  }
+  
+#main-right-box .contact-holder .send{
+    border:rgb(51, 51, 167,0.3) ;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    margin: 0px auto;
+    text-align: center;
+    padding:10px 20px ;
+    background-color:  rgb(49, 49, 177);
+    cursor: pointer;
+    color: rgb(186, 186, 192);
+}
+#main-right-box .contact-holder .send:hover{
+    background-color:  rgb(65, 65, 161,0.2);
+    transition: all 0.8s;
+}
+/* ******************************************************* */
+.footer .copyright{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    color: midnightblue;
+    font-size: 13px;
+    font-weight: 600;
+}

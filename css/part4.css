@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.part4{ 
+    /* border:1px solid red; */
+    padding: 0px; 
+    margin: 0px;
+    margin-bottom:20px;
+}
+.part4-text{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+    letter-spacing: 4px;
+    
+}
+.part4-main-container{
+    /* border: 1px solid lime; */
+    padding: 0px;
+    margin: 0px;
+    
+}
+.part4-main-container .part4-main-row{
+    /* border: 1px solid blue;  */
+}
+.part4-main-box{
+    /* border: 1px solid lime; */
+    /* justify-content: center; */
+}
+.part4-main-box .service-holder{
+    /* border: 1px solid black; */
+    max-height: 300px;
+    display: flex;
+    overflow-x: auto;
+    cursor: pointer;
+   
+}  
+.part4-main-box .service-holder::-webkit-scrollbar{
+    width:0px;
+}
+.service-holder .service{
+    border:1px solid midnightblue;
+    height: 250px;
+    min-width: 250px;
+    /* line-height: 250px; */
+    text-align: center;
+    margin: 15px 0px 0px 10px;
+    position: relative;
+    overflow-y: hidden;
+ 
+}
+.service-holder .service .service-text{
+    border: 1px solid blue;
+    background-color: rgba(12, 12, 145, 0.6);
+    font-size: 22px;
+    padding: 19px 0px;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+    position: absolute;
+    width: 100%;
+    top:38%;
+    border: transparent;
+    
+}
+
+.service-holder .service .service-text1{
+    /* border: 1px solid midnightblue; */
+    padding: 20px 0px 20px 0px;
+    color: midnightblue;
+    display: flex;
+    background-color: rgba(12, 12, 145, 0.6);
+    position: absolute;
+    bottom: -100%;
+    background-color: white;
+}
+.service-holder .service:hover{
+    border: transparent;
+}
+.service-holder .service:hover .service-text{
+    border: 1px solid midnightblue;
+    top:0%;
+    transition: all 1s;
+    background-color: white;
+    text-shadow: 1px 1px 2px white, 0 0 1px blue, 0 0 3px white;
+
+}
+.service-holder .service:hover .service-text1{
+    /* display: block; */
+    bottom: 0%;
+    transition: all 1s ease-out;
+    background-color: rgba(12, 12, 145, 0.6);
+    color: rgb(12, 12, 151);
+  
+
+}
+@media (min-width: 320px) and (max-width: 767px){
+    .part4-text{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.part3{ 
+    /* border:1px solid red; */
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+.part3-text{
+    padding: 15px 0px 25px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+    letter-spacing: 4px;
+
+    
+}
+.part3-main-container{
+    /* border: 1px solid lime; */
+    /* margin: 0px; */
+    
+}
+.part3-main-container .part3-main-row{
+    /* border: 1px solid blue;  */
+    /* padding: 0px;  */
+}
+.part3-main-box{
+    /* border: 1px solid orange; */
+    padding: 10px 0px 25px 0px;
+}
+.part3-main-box .part3-holder{
+    /* border:2px solid aqua; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+    height: 420px;
+    background: rgba(103, 99, 172, 0.4);
+    /* background: rgba(15, 2, 82,0.8); */
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+}
+.part3-main-box .part3-holder:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.part3-holder .part3-image-holder{
+   /* border: 1px solid red; */
+   /* width: 90%; */
+   height: 70%;
+   margin: 0px 10px;
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+  
+}
+.part3-image-holder .book-button{
+    /* border: 1px solid lime; */
+    position: absolute;
+    top:-100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 117,0.2);
+}
+.book-button .book{
+   /* border: 1px solid blue; */
+   padding: 6px 10px;
+   text-align: center;
+   
+   background-color:rgba(57, 52, 145, 0.9) ;
+   color: midnightblue;
+   text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+   font-size: 18px;
+   font-weight: 700;
+   border-radius: 5px;
+}
+.book-button .book:hover{
+    background: rgba(103, 99, 172, 0.9);
+    text-shadow: none;
+}
+.part3-image-holder:hover .book-button{
+    transition:all 0.7s ease-in;
+    top:0%;
+}
+.part3-holder .part3-image-holder img{
+   width:100%;
+   height: 100%;
+   border-radius: 10px;
+}
+
+
+/* .part3-holder .part3-image-holder:hover{
+    transform: translateY(-4%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+    cursor: pointer;
+} */
+.part3-holder p{
+    /* border:1px solid red; */
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    font-weight: lighter;
+    height: 10%;
+    color: midnightblue;
+}
+.part3-holder .part3-price{
+    /* border: 1px solid red; */
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+}
+.part3-holder .part3-place-holder {
+    /* border: 1px solid blue; */
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    
+}
+.part3-holder .part3-place-holder .fa-map-marker-alt{
+    font-size: 20px;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+}
+.part3-holder  .part3-place-holder .part3-place-name{
+    /* border: 1px solid red; */
+    /* height: 10%; */
+    
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white;
+    color: midnightblue;
+}
+.veiw-more{
+    margin: 20px 0px 25 0px;
+    /* border: 1px solid blue; */
+}
+.veiw-more .view-button{
+    border: 1px solid  rgb(4, 4, 133);
+    width:100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-color: rgb(4, 4, 133); */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 1s;
+    color: rgb(0, 0, 155);
+    box-shadow: 1px 1px whitesmoke;
+    
+}
+.veiw-more .view-button:hover{
+    /* text-shadow: 1px 1px 2px white, 0 0 3px blue, 0 0 5px white; */
+    background-color: rgb(4, 4, 133);
+    color: whitesmoke;
+
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .part3-text{
+        font-size: 35px;
+    }
+}

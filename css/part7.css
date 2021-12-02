@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.part7{ 
+    /* border:1px solid red; */
+    padding: 0px; 
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.part7-main-text{
+    padding: 10px 0px 25px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+    letter-spacing: 4px;
+}
+.part7-main-container{
+    /* border: 1px solid lime; */
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.part7-main-container .part7-main-row{
+    /* border: 1px solid blue;  */
+    padding: 0px;
+    margin: 0px;
+}
+.part7-logo1{
+    display: none;
+}
+.part7-logo{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.part7-logo .logo-holder{
+    /* border: 1px solid aqua; */
+    padding: 0px;
+    margin: 0px;
+    height: 85px; 
+    margin: 0px 8px;
+    width:85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.logo-holder .logo-holder-text{
+    border: 2px solid midnightblue;
+    width:85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 3px 0px 3px 0px;
+    color:midnightblue;
+    border-radius: 0px 8px;
+    /* visibility: hidden; */
+    position: absolute;
+    top: 0%;
+}
+.logo-holder-text i{
+    margin: 0px 0px 0px 2px;
+}
+
+.logo-holder-text p{
+    margin: 0px 0px 0px 2px;
+}
+
+.logo-holder .logo{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 15px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+  
+    /* color: rgb(221, 221, 7); */
+}
+.star-logo{
+    color: midnightblue;
+    cursor: pointer;
+}
+/* #logo_holder_text:hover ~ #logo-hover{
+   display: none;
+} */
+/* #logo-hover:hover ~ #logo_holder_text{
+    display: none;
+} */
+/* .logo-holder:hover .logo-holder-text{
+    visibility: visible;
+}  */
+
+@media (min-width: 250px) and (max-width: 767px){
+
+    .part7-main-text{
+        padding: 10px 0px 25px 0px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: midnightblue;
+        letter-spacing: 4px;
+    }
+    .part7-logo .logo-holder{
+        border: 1px solid aqua;
+        padding: 0px;
+        margin: 0px 10px;
+        height: 60px; 
+        width:55px;
+        /* margin: 0px 8px; */
+    }
+    .logo-holder .logo-holder-text{
+        border: 1px solid red;
+        width:53px;
+        display: flex;
+        font-size: 9px;
+        padding: 2px;
+        color:midnightblue;
+        border-radius: 0px 8px;
+    }
+    
+    .logo-holder .logo{
+        position: absolute;
+        border: 1px solid red;
+        width:16px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 20px;
+    }
+
+}
