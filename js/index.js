@@ -66,17 +66,17 @@ var j = 0;
 function auto_slide(){
     if(j == 0){
         // console.log("YES1");
-        img[0].setAttribute("style" , "background: url(../images/img3.jpg) no-repeat center center/100% 100%;");
+        img[0].setAttribute("style" , "background: url(images/img3.jpg) no-repeat center center/100% 100%;");
         j=1;
     }
     else if(j == 1){
         // console.log("YES2");
-        img[0].setAttribute("style" , " background: url(../images/img4.jpg) no-repeat center center/100% 100%;");
+        img[0].setAttribute("style" , " background: url(images/img4.jpg) no-repeat center center/100% 100%;");
         j=2;
     }
     else if(j == 2){
         // console.log("YES3");
-        img[0].setAttribute("style" , "background: url(../images/img5.jpg) no-repeat center center/100% 100%;");
+        img[0].setAttribute("style" , "background: url(images/img5.jpg) no-repeat center center/100% 100%;");
         j=0;
     }   
 }
@@ -96,15 +96,15 @@ for(var i=0;i<=input_button.length;i++){
         console.log("1");
         if(x == "b1"){
             // console.log("YES1");
-            img[0].setAttribute("style" , "background: url(../images/img3.jpg) no-repeat center center/100% 100%;");
+            img[0].setAttribute("style" , "background: url(images/img3.jpg) no-repeat center center/100% 100%;");
         }
         else if(x == "b2"){
             // console.log("YES2");
-            img[0].setAttribute("style" , " background: url(../images/img4.jpg) no-repeat center center/100% 100%;");
+            img[0].setAttribute("style" , " background: url(images/img4.jpg) no-repeat center center/100% 100%;");
         }
         else if(x == "b3"){
             // console.log("YES3");
-            img[0].setAttribute("style" , "background: url(../images/img5.jpg) no-repeat center center/100% 100%;");
+            img[0].setAttribute("style" , "background: url(images/img5.jpg) no-repeat center center/100% 100%;");
         }
     }
 
